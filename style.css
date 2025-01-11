@@ -3,9 +3,11 @@ nav{
     min-height: 30px;
     top:0;
     width:100%;
+    position: -webkit-sticky;
     position: fixed;
     background-color:white;
     opacity: .5;
+    z-index: 1000;
 }
 nav li{
 display: inline;
